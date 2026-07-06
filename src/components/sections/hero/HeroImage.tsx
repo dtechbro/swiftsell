@@ -1,4 +1,4 @@
-import { motion } from "motion/react";
+import { motion, type Variants } from "motion/react";
 import {
   CheckCircle2,
   Package,
@@ -11,7 +11,7 @@ import telegramImage from "@/assets/telegram-img.png";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
-const floating = {
+const floating: Variants = {
   animate: {
     y: [0, -12, 0],
     transition: {
