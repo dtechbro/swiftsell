@@ -2,7 +2,7 @@ import FeaturesGrid from "./features/FeaturesGrid";
 
 export default function Features() {
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section className="relative py-24 overflow-hidden" id="features">
       <div
         className="
           pointer-events-none

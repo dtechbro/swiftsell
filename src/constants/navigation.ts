@@ -13,6 +13,6 @@ export const NAV_LINKS = [
   },
   {
     label: "Contact",
-    href: "#contact",
+    href: "#footer",
   },
 ] as const;

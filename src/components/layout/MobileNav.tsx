@@ -40,7 +40,7 @@ export default function MobileNav() {
           side="right"
           className="w-[320px] border-l bg-background/95 backdrop-blur-xl"
         >
-          <SheetHeader className="mb-8 hover:cursor-pointer">
+          <SheetHeader className="mb-8">
             <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
 
             <Logo onClick={closeMenu} />
@@ -94,7 +94,7 @@ export default function MobileNav() {
 
           <div className="my-8 h-px bg-border" />
 
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col gap-3 mx-6">
             <Button variant="outline" className="h-11 rounded-xl">
               Login
             </Button>
@@ -114,14 +114,14 @@ export default function MobileNav() {
             </Button>
           </div>
 
-          <div className="mt-8 flex items-center justify-between rounded-xl border bg-card p-4">
+          <div className="mt-8 flex items-center justify-between rounded-xl border bg-card p-4 mx-6">
             <div>
               <p className="text-sm font-medium">Appearance</p>
 
               <p className="text-xs text-muted-foreground">Switch theme</p>
             </div>
 
-            <ThemeToggle />
+              <ThemeToggle />
           </div>
         </SheetContent>
       </Sheet>

@@ -66,6 +66,7 @@ const [theme, setTheme] = useState<"light" | "dark">(getInitialTheme);
         duration-300
         hover:border-primary/50
         hover:shadow-md
+        hover:cursor-pointer
       "
     >
       <Sun

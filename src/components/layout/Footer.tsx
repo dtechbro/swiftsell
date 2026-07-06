@@ -2,7 +2,7 @@ import FooterColumn from "./FooterColumn";
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-border/60 bg-background">
+    <footer className="relative border-t border-border/60 bg-background" id="footer">
       <div className="mx-auto max-w-7xl px-6 py-20">
         
         {/* Grid upto 5: lg:grid-cols-5 */}
