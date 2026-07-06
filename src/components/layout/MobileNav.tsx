@@ -95,11 +95,11 @@ export default function MobileNav() {
           <div className="my-8 h-px bg-border" />
 
           <div className="flex flex-col gap-3 mx-6">
-            <Button variant="outline" className="h-11 rounded-xl">
+            <Button variant="outline" className="h-11 rounded-xl hover:cursor-pointer">
               Login
             </Button>
 
-            <Button className="group h-11 rounded-xl">
+            <Button className="group h-11 rounded-xl hover:cursor-pointer">
               Start Selling
               <ArrowRight
                 className="

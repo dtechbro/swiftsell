@@ -82,6 +82,7 @@ export default function CTASection() {
               duration-300
               hover:scale-105
               hover:shadow-xl
+              hover:cursor-pointer
             "
           >
             Get Started

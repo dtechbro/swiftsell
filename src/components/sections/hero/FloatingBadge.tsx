@@ -38,8 +38,8 @@ export default function FloatingBadge({
           border
           border-border/60
           bg-card/80
-          px-4
-          py-2
+          px-3
+          py-4
           text-sm
           shadow-lg
           backdrop-blur-xl
