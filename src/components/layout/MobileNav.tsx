@@ -29,7 +29,7 @@ export default function MobileNav() {
           <Button
             size="icon"
             variant="ghost"
-            className="rounded-xl"
+            className="rounded-xl hover:cursor-pointer"
             aria-label="Open Menu"
           >
             <Menu className="h-6 w-6" />
@@ -40,7 +40,7 @@ export default function MobileNav() {
           side="right"
           className="w-[320px] border-l bg-background/95 backdrop-blur-xl"
         >
-          <SheetHeader className="mb-8">
+          <SheetHeader className="mb-8 hover:cursor-pointer">
             <SheetTitle className="sr-only">Mobile Navigation</SheetTitle>
 
             <Logo onClick={closeMenu} />
