@@ -1,29 +1,23 @@
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
-import Navbar from "@/components/layout/Navbar";
-import Hero from "@/components/sections/hero/Hero";
-import TrustedBy from "./components/sections/TrustedBy";
-import Features from "./components/sections/Features";
-import CTASection from "./components/sections/CTASection";
-import Footer from "./components/layout/Footer";
-import HowItWorks from "./components/sections/HowItWorks";
-import WhyChooseUs from "./components/sections/WhyChooseUs";
+import LandingPage from "@/pages/LandingPage";
+import DashboardPage from "@/pages/dashboard/DashboardPage";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <Navbar />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<LandingPage />} />
 
-      <main className="pt-12 min-h-[300vh]">
-        <Hero />
-        <TrustedBy />
-        <Features />
-        <HowItWorks />
-        <WhyChooseUs />
-        <CTASection />
-        <Footer />
-      </main>
-    </>
+        <Route
+          path="/dashboard"
+          element={<DashboardPage />}
+        />
+      </Routes>
+    </BrowserRouter>
   );
-}
-
-export default App;
+};
