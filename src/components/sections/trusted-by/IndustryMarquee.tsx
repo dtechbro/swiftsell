@@ -6,6 +6,12 @@ import {
   UtensilsCrossed,
   MonitorSmartphone,
   ShoppingBasket,
+  Home,
+  HeartPulse,
+  BookOpen,
+  Dumbbell,
+  Gem,
+  PawPrint,
 } from "lucide-react";
 
 import IndustryBadge from "./IndustryBadge";
@@ -34,6 +40,30 @@ const industries = [
   {
     icon: ShoppingBasket,
     label: "Groceries",
+  },
+  {
+    icon: Home,
+    label: "Home & Living",
+  },
+  {
+    icon: HeartPulse,
+    label: "Health & Wellness",
+  },
+  {
+    icon: BookOpen,
+    label: "Books",
+  },
+  {
+    icon: Dumbbell,
+    label: "Sports & Fitness",
+  },
+  {
+    icon: Gem,
+    label: "Jewelry",
+  },
+  {
+    icon: PawPrint,
+    label: "Pet Supplies",
   },
 ];
 
