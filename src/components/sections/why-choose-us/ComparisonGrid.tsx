@@ -2,8 +2,8 @@ import { motion, type Variants } from "motion/react";
 import {
   CircleX,
   CircleCheckBig,
-  Globe,
-  MessageCircleMore,
+  // Globe,
+  // MessageCircleMore,
 } from "lucide-react";
 
 import ComparisonCard from "./ComparisonCard";
@@ -104,7 +104,7 @@ export default function ComparisonGrid() {
           xl:block
         "
       >
-        <motion.div
+        {/* <motion.div
           animate={{
             y: [0, -10, 0],
           }}
@@ -124,7 +124,7 @@ export default function ComparisonGrid() {
           "
         >
           <Globe className="h-6 w-6 text-muted-foreground" />
-        </motion.div>
+        </motion.div> */}
       </div>
 
       <div
@@ -137,7 +137,7 @@ export default function ComparisonGrid() {
           xl:block
         "
       >
-        <motion.div
+        {/* <motion.div
           animate={{
             y: [0, -12, 0],
           }}
@@ -158,7 +158,7 @@ export default function ComparisonGrid() {
           "
         >
           <MessageCircleMore className="h-6 w-6 text-primary" />
-        </motion.div>
+        </motion.div> */}
       </div>
     </motion.div>
   );

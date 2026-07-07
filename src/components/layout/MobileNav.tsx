@@ -94,7 +94,7 @@ export default function MobileNav() {
 
           <div className="my-8 h-px bg-border" />
 
-          <div className="flex flex-col gap-3 mx-6">
+          {/* <div className="flex flex-col gap-3 mx-6">
             <Button variant="outline" className="h-11 rounded-xl hover:cursor-pointer">
               Login
             </Button>
@@ -112,7 +112,7 @@ export default function MobileNav() {
                 "
               />
             </Button>
-          </div>
+          </div> */}
 
           <div className="mt-8 flex items-center justify-between rounded-xl border bg-card p-4 mx-6">
             <div>

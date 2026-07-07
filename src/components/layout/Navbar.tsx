@@ -81,7 +81,7 @@ export default function Navbar() {
           {/* Right Side */}
 
           <div className="hidden items-center gap-3 lg:flex">
-            <Button variant="ghost" className="rounded-xl hover:cursor-pointer">
+            {/* <Button variant="ghost" className="rounded-xl hover:cursor-pointer">
               Login
             </Button>
 
@@ -97,7 +97,7 @@ export default function Navbar() {
                   group-hover:translate-x-1
                 "
               />
-            </Button>
+            </Button> */}
 
             <ThemeToggle />
           </div>
