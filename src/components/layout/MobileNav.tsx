@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Menu, ArrowRight } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
@@ -94,25 +95,32 @@ export default function MobileNav() {
 
           <div className="my-8 h-px bg-border" />
 
-          {/* <div className="flex flex-col gap-3 mx-6">
-            <Button variant="outline" className="h-11 rounded-xl hover:cursor-pointer">
+          <div className="flex flex-col gap-3 mx-6">
+            {/* <Button variant="outline" className="h-11 rounded-xl hover:cursor-pointer">
               Login
-            </Button>
+            </Button> */}
 
-            <Button className="group h-11 rounded-xl hover:cursor-pointer">
-              Start Selling
-              <ArrowRight
-                className="
-                  ml-2
-                  h-4
-                  w-4
-                  transition-transform
-                  duration-300
-                  group-hover:translate-x-1
-                "
-              />
-            </Button>
-          </div> */}
+            <Link
+              to="https://t.me/SwiftSellsBot"
+              target="_blank"
+                className="group h-11 rounded-xl hover:cursor-pointer mx-auto w-full"
+            >
+              <Button
+                className="group h-11 rounded-xl hover:cursor-pointer">
+                Start Selling
+                <ArrowRight
+                  className="
+                    ml-2
+                    h-4
+                    w-4
+                    transition-transform
+                    duration-300
+                    group-hover:translate-x-1
+                  "
+                />
+              </Button>
+            </Link>
+          </div>
 
           <div className="mt-8 flex items-center justify-between rounded-xl border bg-card p-4 mx-6">
             <div>

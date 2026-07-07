@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
 
@@ -83,21 +84,27 @@ export default function Navbar() {
           <div className="hidden items-center gap-3 lg:flex">
             {/* <Button variant="ghost" className="rounded-xl hover:cursor-pointer">
               Login
-            </Button>
-
-            <Button className="group rounded-xl hover:cursor-pointer">
-              Start Selling
-              <ArrowRight
-                className="
-                  ml-2
-                  h-4
-                  w-4
-                  transition-transform
-                  duration-300
-                  group-hover:translate-x-1
-                "
-              />
             </Button> */}
+
+              <Link
+                to="https://t.me/SwiftSellsBot"
+                target="_blank"
+              >
+                <Button
+                  className="group rounded-xl hover:cursor-pointer">
+                  Start Selling
+                  <ArrowRight
+                    className="
+                      ml-2
+                      h-4
+                      w-4
+                      transition-transform
+                      duration-300
+                      group-hover:translate-x-1
+                    "
+                  />
+                </Button>
+              </Link>
 
             <ThemeToggle />
           </div>

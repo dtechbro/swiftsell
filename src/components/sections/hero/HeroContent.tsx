@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import {
   ArrowRight,
-  Play,
+  // Play,
   Sparkles,
 } from "lucide-react";
 
@@ -56,7 +57,7 @@ export default function HeroContent() {
     >
       {/* Announcement */}
 
-      <motion.div variants={item}>
+      <motion.div variants={item} className="">
         <FloatingBadge
           icon={<Sparkles className="h-4 w-4" />}
           text="Now accepting Telegram merchants"
@@ -124,36 +125,40 @@ export default function HeroContent() {
           sm:flex-row
         "
       >
-        <Button
-          size="lg"
-          className="
-            group
-            h-12
-            rounded-xl
-            px-7
-            text-base
-            shadow-lg
-            transition-all
-            duration-300
-            hover:scale-[1.03]
-            hover:cursor-pointer
-          "
+        <Link
+          to="https://t.me/SwiftSellsBot"
+          target="_blank"
         >
-          Start Selling
-
-          <ArrowRight
+          <Button
+            size="lg"
             className="
-              ml-2
-              h-4
-              w-4
-              transition-transform
+              group
+              h-14
+              rounded-xl
+              px-12
+              text-lg
+              shadow-lg
+              transition-all
               duration-300
-              group-hover:translate-x-1
+              hover:scale-[1.03]
+              hover:cursor-pointer
             "
-          />
-        </Button>
+          >
+            Start Selling
+            <ArrowRight
+              className="
+                ml-2
+                h-4
+                w-4
+                transition-transform
+                duration-300
+                group-hover:translate-x-1
+              "
+            />
+          </Button>
+        </Link>
 
-        <Button
+        {/* <Button
           size="lg"
           variant="outline"
           className="
@@ -181,7 +186,7 @@ export default function HeroContent() {
           />
 
           Watch Demo
-        </Button>
+        </Button> */}
       </motion.div>
 
       {/* Social Proof */}
