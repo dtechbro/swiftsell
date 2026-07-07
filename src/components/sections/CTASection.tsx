@@ -3,7 +3,7 @@ import { motion } from "motion/react";
 export default function CTASection() {
   return (
     <section className="relative overflow-hidden py-28">
-      {/* Background Glow (UNCHANGED) */}
+      {/* Background Glow */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         {/* Main radial glow */}
         <div
@@ -50,7 +50,6 @@ export default function CTASection() {
         />
       </div>
 
-      {/* CONTENT (REPLACED WITH MOTION DIV) */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
