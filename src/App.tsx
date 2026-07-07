@@ -5,6 +5,7 @@ import Features from "./components/sections/Features";
 import CTASection from "./components/sections/CTASection";
 import Footer from "./components/layout/Footer";
 import HowItWorks from "./components/sections/HowItWorks";
+import WhyChooseUs from "./components/sections/WhyChooseUs";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <Features />
         <HowItWorks />
+        <WhyChooseUs />
         <CTASection />
         <Footer />
       </main>
