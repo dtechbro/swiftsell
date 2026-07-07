@@ -29,7 +29,7 @@ export default function Logo({ onClick }: LogoProps) {
 
       <div className="flex flex-col leading-none">
         <span className="text-lg font-bold tracking-tight">
-          StorePilot
+          SwiftSell
         </span>
 
         <span className="text-xs text-muted-foreground">
