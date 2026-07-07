@@ -7,6 +7,7 @@ export default function WhyChooseUs() {
       className="
         relative
         overflow-hidden
+        mx-auto max-w-7xl
         py-24
         sm:py-32
       "

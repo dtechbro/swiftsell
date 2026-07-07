@@ -8,6 +8,7 @@ export default function HowItWorks() {
       className="
         relative
         overflow-hidden
+        mx-auto max-w-7xl
         py-24
         sm:py-32
       "

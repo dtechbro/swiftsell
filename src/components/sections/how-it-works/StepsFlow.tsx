@@ -118,7 +118,7 @@ export default function StepsFlow() {
                   delay: 0.25,
                 }}
                 className="
-                  mx-6
+                  ml-2
                   hidden
                   origin-left
                   items-center

@@ -25,6 +25,7 @@ export default function TrustedBy() {
       className="
         relative
         overflow-hidden
+        mx-auto max-w-7xl
         py-14
         sm:py-16
       "
