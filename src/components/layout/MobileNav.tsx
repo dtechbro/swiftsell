@@ -100,14 +100,16 @@ export default function MobileNav() {
               Login
             </Button> */}
 
-            <Link
-              to="https://t.me/SwiftSellsBot"
-              target="_blank"
-                className="group h-11 rounded-xl hover:cursor-pointer mx-auto w-full"
+            <Button
+              asChild
+              className="group h-11 w-full rounded-xl hover:cursor-pointer"
             >
-              <Button
-                className="group h-11 rounded-xl hover:cursor-pointer">
+              <Link
+                to="https://t.me/SwiftSellsBot"
+                target="_blank"
+              >
                 Start Selling
+
                 <ArrowRight
                   className="
                     ml-2
@@ -118,8 +120,8 @@ export default function MobileNav() {
                     group-hover:translate-x-1
                   "
                 />
-              </Button>
-            </Link>
+              </Link>
+            </Button>
           </div>
 
           <div className="mt-8 flex items-center justify-between rounded-xl border bg-card p-4 mx-6">
