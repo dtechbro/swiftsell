@@ -136,6 +136,7 @@ export default function HeroContent() {
             transition-all
             duration-300
             hover:scale-[1.03]
+            hover:cursor-pointer
           "
         >
           Start Selling
@@ -167,6 +168,7 @@ export default function HeroContent() {
             transition-all
             duration-300
             hover:scale-[1.03]
+            hover:cursor-pointer
           "
         >
           <Play

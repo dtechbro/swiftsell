@@ -6,7 +6,7 @@ type LogoProps = {
 export default function Logo({ onClick }: LogoProps) {
   return (
     <a
-      href="#"
+      href="/"
       onClick={onClick}
       className="group flex items-center gap-3 select-none"
       aria-label="Homepage"

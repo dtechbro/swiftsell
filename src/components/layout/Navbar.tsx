@@ -81,11 +81,11 @@ export default function Navbar() {
           {/* Right Side */}
 
           <div className="hidden items-center gap-3 lg:flex">
-            <Button variant="ghost" className="rounded-xl">
+            <Button variant="ghost" className="rounded-xl hover:cursor-pointer">
               Login
             </Button>
 
-            <Button className="group rounded-xl">
+            <Button className="group rounded-xl hover:cursor-pointer">
               Start Selling
               <ArrowRight
                 className="
