@@ -35,7 +35,7 @@ export default function DashboardMobileNav({
           p-2
         "
       >
-        <div className="mb-8">
+        <div className="mb-8 mt-4">
           <Logo />
         </div>
 

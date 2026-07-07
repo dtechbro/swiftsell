@@ -28,20 +28,44 @@ export default function ProductCard({
     <Card
       className="
         group
+        relative
         overflow-hidden
         rounded-2xl
+        border
         border-border/60
         bg-card/60
         transition-all
         duration-300
         hover:-translate-y-1
-        hover:shadow-xl
+        hover:border-primary/40
+        hover:shadow-2xl
       "
     >
-      {/* Image Placeholder */}
+      {/* Hover Glow */}
 
       <div
         className="
+          pointer-events-none
+          absolute
+          inset-0
+          rounded-2xl
+          bg-gradient-to-br
+          from-primary/10
+          via-transparent
+          to-chart-2/10
+          opacity-0
+          blur-2xl
+          transition-opacity
+          duration-300
+          group-hover:opacity-100
+        "
+      />
+
+      {/* Image */}
+
+      <div
+        className="
+          relative
           flex
           h-44
           items-center
@@ -50,10 +74,19 @@ export default function ProductCard({
           bg-muted/30
         "
       >
-        <Package className="h-12 w-12 text-muted-foreground" />
+        <Package
+          className="
+            h-12
+            w-12
+            text-muted-foreground
+            transition-transform
+            duration-300
+            group-hover:scale-110
+          "
+        />
       </div>
 
-      <div className="space-y-5 p-5">
+      <div className="relative space-y-5 p-5">
         <div>
           <div className="flex items-start justify-between gap-3">
             <h3 className="font-semibold">
@@ -77,13 +110,7 @@ export default function ProductCard({
         </div>
 
         <div className="grid grid-cols-2 gap-4">
-          <div
-            className="
-              rounded-xl
-              bg-muted/40
-              p-3
-            "
-          >
+          <div className="rounded-xl bg-muted/40 p-3">
             <p className="text-xs text-muted-foreground">
               Price
             </p>
@@ -93,13 +120,7 @@ export default function ProductCard({
             </p>
           </div>
 
-          <div
-            className="
-              rounded-xl
-              bg-muted/40
-              p-3
-            "
-          >
+          <div className="rounded-xl bg-muted/40 p-3">
             <p className="text-xs text-muted-foreground">
               Stock
             </p>
@@ -110,13 +131,7 @@ export default function ProductCard({
           </div>
         </div>
 
-        <div
-          className="
-            flex
-            items-center
-            justify-between
-          "
-        >
+        <div className="flex items-center justify-between">
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
             <Boxes className="h-4 w-4" />
 
@@ -127,7 +142,12 @@ export default function ProductCard({
             <Button
               size="icon"
               variant="outline"
-              className="rounded-xl hover:cursor-pointer"
+              className="
+                rounded-xl
+                transition-all
+                hover:cursor-pointer
+                hover:border-primary/40
+              "
             >
               <Pencil className="h-4 w-4" />
             </Button>
@@ -138,6 +158,7 @@ export default function ProductCard({
               className="
                 rounded-xl
                 text-destructive
+                transition-all
                 hover:cursor-pointer
               "
             >
