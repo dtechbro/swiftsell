@@ -183,7 +183,7 @@ export default function StepsFlow() {
                     w-10
                     text-primary
                   "
-                  strokeWidth={3}
+                  strokeWidth={2.5}
                 />
               </motion.div>
             </>
