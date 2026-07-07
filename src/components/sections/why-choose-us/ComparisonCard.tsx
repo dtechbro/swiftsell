@@ -34,7 +34,7 @@ export default function ComparisonCard({
         hover:-translate-y-1
         ${
           highlight
-            ? "border-primary/40 bg-card shadow-xl"
+            ? "border-border/60 bg-card/70 shadow-sm"
             : "border-border/60 bg-card/70 shadow-sm"
         }
       `}
@@ -54,7 +54,7 @@ export default function ComparisonCard({
           group-hover:opacity-100
           ${
             highlight
-              ? "bg-primary/20"
+              ? "bg-chart-2/10"
               : "bg-chart-2/10"
           }
         `}
@@ -88,7 +88,7 @@ export default function ComparisonCard({
             p-3
             ${
               highlight
-                ? "bg-primary/10 text-primary"
+                ? "bg-muted text-muted-foreground"
                 : "bg-muted text-muted-foreground"
             }
           `}
@@ -130,7 +130,7 @@ export default function ComparisonCard({
                   rounded-full
                   ${
                     highlight
-                      ? "bg-primary/10 text-primary"
+                      ? "bg-muted text-muted-foreground"
                       : "bg-muted text-muted-foreground"
                   }
                 `}

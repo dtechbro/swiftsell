@@ -128,10 +128,7 @@ export default function WhyChooseUs() {
               text-muted-foreground
             "
           >
-            Your customers are already on Telegram. SwiftSell lets
-            you launch a complete ecommerce experience in minutes—
-            without worrying about hosting, plugins, or ongoing
-            maintenance.
+            Your customers are already on Telegram. SwiftSell lets you launch a complete ecommerce experience in minutes without worrying about hosting, plugins, or ongoing maintenance.
           </p>
         </div>
 
